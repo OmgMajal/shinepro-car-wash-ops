@@ -15,6 +15,7 @@ build/
 tmp/
 *.log
 *.tmp
+*.zip
 .nyc_output/
 
 # Local database files and backups
