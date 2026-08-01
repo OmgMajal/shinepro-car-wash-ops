@@ -1,0 +1,22 @@
+{
+  "name": "shinepro-car-wash-ops",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ShinePro car wash operations and worker commission management prototype",
+  "type": "module",
+  "scripts": {
+    "check": "node --check app.js",
+    "server": "node server/src/http/server.mjs",
+    "db:migrate": "node server/src/db/migrate.mjs",
+    "db:seed": "node server/src/db/seed.mjs",
+    "migration:preview": "node server/src/migration/preview.mjs",
+    "migration:import": "node server/src/migration/import.mjs",
+    "test": "node --test server/test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "pg": "^8.13.1"
+  }
+}

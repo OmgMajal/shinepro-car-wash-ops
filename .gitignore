@@ -1,0 +1,33 @@
+# Local secrets and environment overrides
+.env
+.env.*
+!.env.example
+
+# Installed dependencies
+node_modules/
+.pnpm-store/
+
+# Generated exports, previews, builds, and test output
+outputs/
+coverage/
+dist/
+build/
+tmp/
+*.log
+*.tmp
+.nyc_output/
+
+# Local database files and backups
+*.db
+*.sqlite
+*.sqlite3
+backups/
+
+# Local reference snapshots are useful for audit history but are not part of the transfer
+_reference/
+
+# Operating system and editor files
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
