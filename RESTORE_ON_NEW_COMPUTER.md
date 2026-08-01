@@ -12,10 +12,8 @@ git --version
 
 ## 2. Clone the private repository
 
-Replace `<owner>` with the GitHub owner that owns the private repository:
-
 ```powershell
-git clone https://github.com/<owner>/shinepro-car-wash-ops.git
+git clone https://github.com/MajalDidIt/shinepro-car-wash-ops.git
 Set-Location .\shinepro-car-wash-ops
 ```
 

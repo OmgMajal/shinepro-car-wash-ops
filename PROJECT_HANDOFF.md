@@ -2,6 +2,8 @@
 
 This document is the transfer record for the `shinepro-car-wash-ops` project. It is written so another developer can clone the private repository, restore the local environment, and continue work without needing the original computer.
 
+Repository: [github.com/MajalDidIt/shinepro-car-wash-ops](https://github.com/MajalDidIt/shinepro-car-wash-ops) (private)
+
 ## Current scope
 
 - Public experience: `landing.html`, `landing.css`, and `landing.js`.
@@ -31,7 +33,7 @@ No real credentials belong in this repository. Create a new `.env` locally from 
 From PowerShell:
 
 ```powershell
-git clone https://github.com/<owner>/shinepro-car-wash-ops.git
+git clone https://github.com/MajalDidIt/shinepro-car-wash-ops.git
 Set-Location .\shinepro-car-wash-ops
 npm install
 Copy-Item .env.example .env
